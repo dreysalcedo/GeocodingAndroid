@@ -1,0 +1,2 @@
+rootProject.name = "GeocodingThesis"
+include ':app'

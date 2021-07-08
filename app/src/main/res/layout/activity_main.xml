@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/input_startlocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Input Starting Location"
+        android:autofillHints="Starting Location" />
+
+    <Button
+        android:id="@+id/btn_markstart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mark Initial Location" />
+
+    <EditText
+        android:id="@+id/input_endpoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Input Destination"
+        android:autofillHints="Destination" />
+
+    <Button
+        android:id="@+id/btn_markdestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mark Destination" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Location" />
+
+    <TextView
+        android:id="@+id/destination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Destination" />
+
+    <Button
+        android:id="@+id/btn_compute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compute" />
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Distance: " />
+
+    <TextView
+        android:id="@+id/fare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FARE:" />
+
+</LinearLayout>
